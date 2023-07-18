@@ -1,0 +1,12 @@
+### dataset structure: absolute path: C:/Users/HP/PycharmProjects/Yolov8_Custom_Train/Local_ev_Training/dataset/
+### train folder: images (dataset/train/images) and labels (dataset/train/labels)
+### validation folder: images (dataset/validation/images) and labels (dataset/validation/labels)
+
+
+path: C:/Users/HP/PycharmProjects/Yolov8_Custom_Train/Local_ev_Training # dataset root dir
+train: dataset/train/images  # train images (relative to 'path')
+val: dataset/validation/images # val images (relative to 'path')
+
+# Classes
+names:
+  0: alpaca
